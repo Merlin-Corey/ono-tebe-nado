@@ -240,9 +240,6 @@ h1 > span:not(:first-child) {
   text-decoration-thickness: 1px;
 }
 
-.about {
-}
-
 .about__column {
   display: grid;
   grid-template-columns: 360px 1fr;
