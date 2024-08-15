@@ -59,7 +59,7 @@
   text-underline-position: under;
 }
 
-.address_item {
+.address__item {
   font-weight: 400;
   font-size: 18px;
   line-height: 135%;
@@ -175,6 +175,7 @@ h1 > span:not(:first-child) {
   grid-template-columns: repeat(3, 334px);
   gap: 25px;
   color: #fff;
+  /* padding-bottom: 30px; */
 }
 
 .card-link {
@@ -228,6 +229,7 @@ h1 > span:not(:first-child) {
 }
 
 .lots__look-more-link {
+  display: block;
   padding-top: 30px;
   padding-left: 40px;
   font-style: normal;
@@ -313,10 +315,6 @@ h1 > span:not(:first-child) {
   font-size: 18px;
   letter-spacing: 0.01em;
   color: #000;
-}
-
-.footer__menu-list-item_no-bullit {
-  list-style-type: none;
 }
 
 .footer__menu-link {
