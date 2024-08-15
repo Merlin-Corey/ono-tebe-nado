@@ -175,7 +175,6 @@ h1 > span:not(:first-child) {
   grid-template-columns: repeat(3, 334px);
   gap: 25px;
   color: #fff;
-  /* padding-bottom: 30px; */
 }
 
 .card-link {
