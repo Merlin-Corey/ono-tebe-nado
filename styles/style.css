@@ -13,25 +13,24 @@
   list-style-type: circle;
 }
 
-.header__links-list-item_no-bullit {
-  font-weight: 400;
-  font-size: 18px;
-  letter-spacing: 0.01em;
-  color: #000;
-  list-style-type: none;
-}
-
-.text__decor {
-  text-decoration: none;
-}
-
 .header__links-list-item {
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0.01em;
   color: #000;
+}
+
+.header__link {
   text-decoration: underline;
   text-underline-position: under;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__links-list-item_no-bullit {
+  list-style-type: none;
 }
 
 .header__logo {
@@ -40,17 +39,16 @@
   display: flex;
 }
 
-.adress {
+.address {
   width: 100%;
   max-width: 240px;
-  height: 100px;
 }
 
 .header__address {
   justify-self: end;
 }
 
-.adress_item-link {
+.address__item-link {
   display: block;
   font-weight: 400;
   font-size: 18px;
@@ -61,7 +59,7 @@
   text-underline-position: under;
 }
 
-.adress_item {
+.address_item {
   font-weight: 400;
   font-size: 18px;
   line-height: 135%;
@@ -85,7 +83,7 @@
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-.cover_title {
+.cover__title {
   display: flex;
   flex-direction: column;
   text-transform: uppercase;
@@ -103,6 +101,7 @@
 .aligned-text {
   text-align: left;
   letter-spacing: 0.3em;
+  display: block;
 }
 
 .letter-spacing-extended {
@@ -110,13 +109,11 @@
 }
 
 .aligned-text_center {
-  display: block;
   text-align: center;
   line-height: 1;
 }
 
 .aligned-text_right {
-  display: block;
   text-align: right;
   line-height: 1;
 }
@@ -149,11 +146,12 @@ h1 > span:not(:first-child) {
 }
 
 .bet-button {
+  color: #fff;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 26px;
-  text-align: center;
+  background-color: transparent;
   text-transform: uppercase;
   border: 1px solid #fff;
   padding: 13px 32px 11px 31px;
@@ -298,11 +296,11 @@ h1 > span:not(:first-child) {
   align-items: flex-start;
 }
 
-.footer_adress {
+.footer__address {
   justify-self: flex-start;
 }
 
-.footer_menu-list {
+.footer__menu-list {
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -310,14 +308,34 @@ h1 > span:not(:first-child) {
   align-items: center;
 }
 
-.logos_menu {
+.footer__menu-list-item {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  color: #000;
+}
+
+.footer__menu-list-item_no-bullit {
+  list-style-type: none;
+}
+
+.footer__menu-link {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.footer__menu-link_active {
+  text-decoration: none;
+}
+
+.footer__social-list {
   display: flex;
-  flex-direction: row;
   gap: 48px;
   justify-self: flex-end;
 }
 
-.logos {
+.footer__social-list-item {
+  list-style-type: none;
   width: 48px;
   height: 48px;
 }
